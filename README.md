@@ -197,17 +197,6 @@
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rajan-vish&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Rajan's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajan-vish&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajan-vish&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="96%" />
-</div>
-
 ---
 
 ## 📬 Connect With Me
