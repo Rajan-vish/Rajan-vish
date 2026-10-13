@@ -145,15 +145,15 @@
 
 ## 🚀 Featured Flagship Projects
 
-### 1. [AI RAG Chatbot: Enterprise Hybrid RAG Platform](https://github.com/Rajan-vish/AI-RAG-Chatbot-Final)
-> **Domain:** Applied AI / ML, Distributed Backend, MLOps | **Stack:** Python, FastAPI, Flask, ChromaDB, Upstash Redis, Google Gemini 3.8 Flash, PyMuPDF, Vis.js  
-> 🌐 **Live Demo:** [ai-rag-chatbot-final-1.onrender.com](https://ai-rag-chatbot-final-1.onrender.com)
+### 1. [AI RAG Chatbot: Enterprise Hybrid RAG Platform](https://github.com/Rajan-vish/ai-chatbot-rag-main)
+> **Domain:** Applied AI / ML, Distributed Backend, Full-Stack | **Stack:** React 19 (Vite), FastAPI, ChromaDB, Upstash Redis, Google Gemini 3.8 Flash, PyMuPDF  
+> 🌐 **Live Demo:** [ai-rag-chatbot-frontend-v5sv.onrender.com](https://ai-rag-chatbot-frontend-v5sv.onrender.com) | 📖 **API Docs:** [ai-rag-chatbot-backend-v5sv.onrender.com/docs](https://ai-rag-chatbot-backend-v5sv.onrender.com/docs)
 
+- **React 19 + Vite Modern SPA**: High-performance client with multi-thread session history, interactive citation verification drawer, and real-time MLOps observability charts.
 - **Sub-5ms Query Acceleration**: Integrated Upstash Cloud Redis caching layer cutting response latency from **~1,400ms down to <5ms** (99.6% speedup) with auto-invalidation on document mutations.
 - **Hybrid Retrieval (Dense + Sparse)**: Combines dense 768-dim semantic vectors (ChromaDB) with BM25 keyword matching using **Reciprocal Rank Fusion (RRF)** to eliminate cosine-similarity false positives.
-- **Knowledge Graph RAG & Visualization**: Extracts entity-concept relationships across documents into an interactive Vis.js graph network (`/graph`) for multi-hop contextual reasoning.
-- **MLOps Observability & Cost Auditing**: Built-in `/mlops` portal tracking latency percentiles, user feedback loops, token consumption, and live Gemini API financial costs ($ USD).
-- **Voice Conversation Loop & Robust Testing**: Full STT $\rightarrow$ RAG $\rightarrow$ TTS pipeline backed by **43 automated Pytest unit and integration tests** in CI/CD.
+- **Tenant-Scoped Session & Cache Isolation**: Rigorous `user_id` partitioning on documents and Redis keys, preventing cross-tenant data leakage.
+- **Voice Conversation Loop & Robust Testing**: Full STT $\rightarrow$ RAG $\rightarrow$ TTS pipeline backed by **automated Pytest unit and integration tests** in CI/CD.
 
 ---
 
